@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Escola escola = new Escola();
+
+            escola.CadastrarAluno();
+            escola.CadastrarAluno();
+            escola.CadastrarAluno();
+            escola.ListarTodasMatriculasEAlunos();
+
+            escola.RemoverAluno();
+            escola.ListarTodasMatriculasEAlunos();
         }
     }
 }
